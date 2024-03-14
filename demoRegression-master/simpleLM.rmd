@@ -67,4 +67,12 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(ourheadwth)
 summary.lm(ourheadwth)
 ```
-The order from worst to best would be HeadWth, Weight, Neck, and then Chest. 
+The order from worst to best would be HeadWth, Weight, Neck, and then Chest.
+
+HeadWth: RSE: 7.32 Ars: 0.5321
+
+Weight: RSE: 5.432, ARs: 0.7423
+
+Neck: RSE: 5.376 ARs: 0.7476
+
+Chest: RSE: 4.939 ARs:0.7869  
